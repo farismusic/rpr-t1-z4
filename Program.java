@@ -15,6 +15,7 @@ public class Program {
         Student s5 = new Student("Almir", "Becirevic", 12090);
         matematika.upisi(s5);
         matematika.ispisi(s2);
+        matematika.upisi(new Student("Seudin", "Music", 99999));
         matematika.ispisiSve();
         System.out.println("\nIme predmeta: "+ matematika.getNazivPredmeta() +"\n"+ "Sifra predmeta: "+ matematika.getSifraPredmeta()+ "\n");
     }
