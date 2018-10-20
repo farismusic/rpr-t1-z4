@@ -17,6 +17,5 @@ public class Program {
         matematika.ispisi(s2);
         matematika.ispisiSve();
         System.out.println("\nIme predmeta: "+ matematika.getNazivPredmeta() +"\n"+ "Sifra predmeta: "+ matematika.getSifraPredmeta()+ "\n");
-
     }
 }
