@@ -1,7 +1,7 @@
 package ba.unsa.etf.rpr.predavanje03;
 
 public class Student{
-    private String ime;
+    private String ime, provjera;
     private String prezime;
     private int brojIndeksa;
 
@@ -33,5 +33,6 @@ public class Student{
 
     public void ispisi(){
         System.out.println(getPrezime()+" "+getIme()+"(" +getBrojIndeksa()+")");
+
     }
 }
